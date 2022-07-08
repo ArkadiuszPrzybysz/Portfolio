@@ -1,0 +1,12 @@
+:root {
+  --primary: rgb(133, 133, 133);
+  --light: rgb(255, 228, 228);
+  --dark: rgb(27, 27, 27);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
+}
