@@ -6,6 +6,7 @@ const arrow = document.querySelector(".box");
 window.addEventListener('scroll', function(){
   var value = this.window.scrollY;
 
+  behavior: 'smooth';
   text.style.top = value * 0.8 + 'px';
 })
 
