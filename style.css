@@ -146,6 +146,7 @@ section .header {
   text-shadow: 1px 1px black;
   position: relative;
   z-index: 1;
+  transition-timing-function: ease-in;
 }
 
 .box {
