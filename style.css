@@ -47,11 +47,13 @@ header a{
 }
 
 .logo {
-  font-size: 2rem;
+  font-size: max(2.5vw, 30px);
+  font-weight: 700;
 }
 
 .nav_link {
   transition: 0.7s ease;
+  font-size: max(1vw, 15px);
 }
 
 .nav_link:hover {
@@ -148,17 +150,17 @@ section .header {
 .box {
   position: fixed;
   z-index: -1;
-  bottom: 10%;
+  bottom: 5%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .box span {
   display: block;
-  width: 20px;
-  height: 20px;
-  border-bottom: 1px solid white;
-  border-right: 1px solid white;
+  width: 40px;
+  height: 40px;
+  border-bottom: 4px solid white;
+  border-right: 4px solid white;
   transform: rotate(45deg);
 }
 
