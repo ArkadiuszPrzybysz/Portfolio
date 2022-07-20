@@ -8,6 +8,7 @@ window.addEventListener('scroll', function(){
 
   behavior: 'smooth';
   text.style.top = value * 0.8 + 'px';
+  text.style.bottom = value * 0.8 + 'px';
 })
 
 hamburger.addEventListener("click", () => {
