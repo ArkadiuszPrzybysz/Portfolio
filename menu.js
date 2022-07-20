@@ -2,13 +2,14 @@ const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav_menu");
 const text = document.querySelector(".header");
 const arrow = document.querySelector(".box");
+const navbar = document.querySelector(".navbar");
 
 window.addEventListener('scroll', function(){
   var value = this.window.scrollY;
 
-  behavior: 'smooth';
-  text.style.top = value * 0.8 + 'px';
-  text.style.bottom = value * 0.8 + 'px';
+ 
+  navbar.style.top = value * -0.1 + 'px';
+  text.style.paddingBottom = value * 0.3 + 'px';
 })
 
 hamburger.addEventListener("click", () => {
