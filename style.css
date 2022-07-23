@@ -147,7 +147,21 @@ section .header {
   position: fixed;
   z-index: -1;
   width: 100%;
-  top: 50%;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+section .header2 {
+  text-align: center;
+  font-size: max(1.5vw, 20px);
+  line-height: 160%;
+  color: white;
+  text-shadow: 1px 1px black;
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  top: 54%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
